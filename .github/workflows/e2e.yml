@@ -38,7 +38,6 @@ jobs:
         - name: Install Extension Dependencies
           run: |
             npm install
-            npm run compile;
         - name: Install the SFDX CLI
           run: npm install -g sfdx-cli
         - name: Verify CLI
